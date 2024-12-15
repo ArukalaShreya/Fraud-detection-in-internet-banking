@@ -1,0 +1,30 @@
+import numpy as np
+-** pip install numpy **-
+import pandas as pd
+-** pip install pandas **-
+import matplotlib.pyplt as plt
+-** pip install matplotlib **-
+import seaborn as sns
+-** pip install seaborn **-
+
+-** pip install scikit-learn **-
+from sklearn.model_selection import StratifieldkFold
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomClassifier
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import roc_curve, auc, ConfusionMatrixDisplay 
+
+
+***** DESCRIPTION *****
+
+Project Name : FRAUD DETECTION IN INTERNET BANKING USING MACHINE LEARNING.
+    
+Fraud detection in internet banking involves identifying and preventing unauthorized 
+or suspicious activities to protect customers' accounts and financial information.
+Banks collect data from various sources, such as transaction details, account information,
+and user behavior, including login patterns and device information.  
+By using historical data, banks establish normal patterns of behavior for each customer to 
+identify typical transactions.Transactions are continuously monitored in real time to detect 
+anomalies, such as unusual spending amounts or unfamiliar locations, which raise red flags.
+Advanced algorithms and machine learning models analyze the data, trained to recognize signs 
+of fraud by learning from previous fraudulent and legitimate transactions.
